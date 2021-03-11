@@ -1,0 +1,37 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "main": "webpack",
+    "dev": "webpack serve --open",
+    "ts": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duguanfeng/store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duguanfeng/store/issues"
+  },
+  "homepage": "https://github.com/duguanfeng/store#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
